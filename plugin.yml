@@ -1,0 +1,15 @@
+name: BlackMarket
+description: Simple
+version: 1.0
+author: CommandCraft
+depend: [Vault]
+main: me.commandcraft.blackmarket.Main
+
+commands:
+  market:
+    description: used to interact with BlackMarket
+permission:
+  market.sell:
+    default: op
+  market.open:
+    default: normal
